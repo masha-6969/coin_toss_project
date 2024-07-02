@@ -17,8 +17,12 @@ def display_random_literals():
         # Display the round number and the random literal
         print(f"Round {i}: {random_literal}")
     
-    print(f"Total counts - Heads: {x}, Tails: {y}")
-
+    print(f"Heads: {x}, Tails: {y}")
+    # Print victory message
+    if x > y:
+        print("You won!")
+    else:
+        print("You lost!")
 
 # Call the function to start the program
 display_random_literals()
