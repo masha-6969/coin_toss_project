@@ -3,7 +3,7 @@ import random
 def display_random_literals():
     # Ask for the user's name
     name = input("Who are you? ")
-    print(f"Hello, {name}!")
+    print(f"Hello, {name} !")
 
     # Coin tossing logic
     x = 0  # Counter for "Heads"
@@ -23,14 +23,11 @@ def display_random_literals():
         print(f"Round {i}: {random_literal}")
     
     print(f"Heads: {x}, Tails: {y}")
-<<<<<<< HEAD
+
     # Print victory message
     if x > y:
         print(f"{name} won!")
     else:
         print(f"{name} lost!")
-=======
->>>>>>> user_name
-
 # Call the function to start the program
 display_random_literals()
